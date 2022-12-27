@@ -12,9 +12,8 @@ public class GroupAdmin implements Sender{
     public UndoableStringBuilder getObservable() {
         return observable;
     }
-
     @Override
-    public void register(Member obj) {                  //register a new member method
+    public void register(Member obj) {      //register a new member method
         observers.add(obj);
     }
 
